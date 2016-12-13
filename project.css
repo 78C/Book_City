@@ -1,0 +1,13 @@
+body{position:fixed;width:100%;height:100%;background-image: url("city.jpeg");background-size:cover;}
+.main{position:absolute;left:400px;top:250px;width:601px;height:350px;}
+.header_box{float:left;width:180px;height:150px;}
+.header div{float:left;color:#fff;font-family: Tahoma;font-size:40px; font-weight:200;}
+.header div span{color: #F29E20;}
+.login_box{float:left;height:150px;width:299px;}
+.login_box input[type=text]{width:250px;height:30px;background:transparent;border:1px solid gray; border-radius:10px; padding:4px;}
+.login_box input[type=password]{width:250px;height:30px;background:transparent;border:1px solid gray; border-radius:10px; padding:4px; margin-top:5px}
+.login_box input[type=button]{width:250px;height:30px;background:white;border:1px solid gray; border-radius:10px; padding:4px; margin-top:5px}
+::webkit-input-placeholder{color: white;}
+:-ms-input-placeholder{color:blue;}
+::-moz-placeholder{color:blue;opacity:1;}
+:-moz-placeholder{color:blue;opacity:1;}
