@@ -1,0 +1,110 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Login </title>
+	<style type="text/css">
+	@import url(https://fonts.google.com/specimen/Open+Sans?selection.family=Open+San:100 200 400);
+		.body{
+			position: fixed;
+			overflow-y: scroll;
+			width: 100%
+			top: -20px;
+			right: -40px ;
+			bottom: -40px ;
+			width: auto;
+			height: auto;
+			background-image: url('city.jpg');
+			background-size: cover;
+			-webkit-filter: blur (0px);
+		}
+		.head{
+			position: absolute;
+			top: calc(50%- 35px);
+			left: calc(50%- 255px);
+		}
+		.header div{
+			float: left;
+			color: #fff;
+			font-family: open;
+			font-size: 40px;
+			font-weight: 200;
+		}
+		.header div span{
+			color: #F2E20 !important;
+		}
+		.login{
+			position: absolute;
+			top: calc(50%- 75px);
+			left: calc(50%- 50px);
+			height: 150px;
+			width: 350px;
+			padding: 10px;
+		}
+		.login input[type=text]{
+			width:250px;
+			height: 45px;
+			background: transparent;
+			border: 1px solid rgba(255, 255, 255, 0.6);
+			border-radius:4px;
+			color: #fff;
+			font-family: 'open', sans-serif;
+			font-size: 16px;
+			font-weight: 400;
+			padding: 4px;
+		}
+		.login input[type=password]{
+			width:250px;
+			height: 45px;
+			background: transparent;
+			border: 1px solid rgba(255, 255, 255, 0.6);
+			border-radius:4px;
+			color: #fff;
+			font-family: 'open', sans-serif;
+			font-size: 16px;
+			font-weight: 400;
+			padding: 4px;
+		}
+		.login input[type=button]{
+			width:260px;
+			height: 55px;
+			background: transparent;
+			border: 1px solid #fff;
+			border-radius:2px;
+			cursor: pointer;
+			color: #al8d6c;
+			font-family: 'open', sans-serif;
+			font-size: 16px;
+			font-weight: 400;
+			padding: 6px;
+			margin-top: 10px;
+		}
+		.login input[type=button]:hover{
+			opacity:0.8;
+		}
+		.login input[type=button]:active{
+			opacity:0.6;
+		}
+		.login input[type=button]:focus{
+			outline: none;
+			border:1px solid rgba (255, 255, 255, 0.8)
+		}
+			
+	</style>
+</head>
+<body oncontectmenu="return false">
+	<div class="body"></div>
+	<div class="grad"></div>
+	<div class="header">
+	<div> Book <span> City </span> </div>
+	</div>
+	<form name="login">
+	<div class="login">
+		<input type="text" placeholder="username" name="userid">
+		<input type="password" placeholder="password" name="password">
+		<input type="button" onclick="check(this.form)" value="Login">
+	</div>
+	</form>
+
+
+</body>
+</html>
